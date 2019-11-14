@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: a640cc5d-f4a3-457a-b07a-f607f410f5c9
+        file-extension: yaml
+        ext-config[0]:
+          data-id: test1-application.yaml
+          group: test
+          refresh: true
